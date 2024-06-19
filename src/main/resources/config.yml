@@ -1,0 +1,33 @@
+#just config
+default:
+  items:
+    - "leather_"
+    - "diamond_"
+    - "netherite_"
+    - "bow"
+    - "elytra"
+    - "trident"
+    - "crossbow"
+  cost:
+    base: 5000
+    per-enchantment-level: 100
+    override:
+      - mending:200
+      - onlyone:10000
+  time: 24 #小时
+  lore:
+    - ""
+    - "&f恢复价格:&e%price%"
+  message:
+    success: "&a[保险库] &c您的一件装备已损坏, 请在24小时内前往铁匠铺的保险库恢复物品, 过期物品将永久消失。"
+    full: "&a[保险库] &c您的物品保险库已满！距离最远的一件物品已被删除。"
+    poor: "&a[保险库] &c您的钱包余额不足。"
+  gui:
+    title: "&3物品保险库"
+    holder:
+      type: "RED_STAINED_GLASS_PANE"
+      name: "&e锁定的槽位"
+      lore:
+        - ""
+        - "&b该槽位被锁定"
+        - "&b界面中的空白格子为您拥有的保险库槽位"

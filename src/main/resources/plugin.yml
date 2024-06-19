@@ -1,0 +1,8 @@
+name: CustomRecoverableItem
+version: '${project.version}'
+main: top.ilhyc.plugins.customrecoverableitem.CustomRecoverableItem
+api-version: '1.20'
+softdepend: [Vault,EcoEnchants]
+commands:
+  customrecoverableitem:
+    aliases: [cri]
